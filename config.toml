@@ -1,0 +1,52 @@
+baseURL = "http://localhost:1313/"
+languageCode = "id-ID"
+title = "Solehudin's blog"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+author = "Solehudin"
+description = "Solehudin Blog"
+github = "solehudin5699"
+facebook = ""
+twitter = ""
+linkedin = ""
+instagram = ""
+tumblr = ""
+email = ""
+url = "https://solehudin.my.id"
+keywords = "blog"
+rss = false
+lastmod = true
+userStatusEmoji = "😀"
+favicon = "https://raw.githubusercontent.com/solehudin5699/notes/master/docs/assets/images/favicon.png"
+avatar = "https://avatars.githubusercontent.com/u/65361695?v=4"
+headerIcon = "https://raw.githubusercontent.com/solehudin5699/notes/master/docs/assets/images/favicon.png"
+location = "West Java, Indonesia"
+enableGitalk = true
+
+[params.gitalk]
+clientID = "Your client ID"
+clientSecret = "Your client secret"
+repo = "notes"
+owner = "solehudin5699"
+admin = "solehudin5699"
+id = "location.pathname"
+labels = "gitalk"
+perPage = 15
+pagerDirection = "last"
+createIssueManually = true
+distractionFreeMode = false
+
+[[params.links]]
+title = "Link"
+href = "https://solehudin.my.id"
+icon = "https://raw.githubusercontent.com/solehudin5699/notes/master/docs/assets/images/favicon.png"
+
+[frontmatter]
+lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[services]
+[services.googleAnalytics]
+ID = "UA-XXXXXXXXXX"
